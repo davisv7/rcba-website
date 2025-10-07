@@ -26,7 +26,7 @@ const features = [
 
 export const About = () => {
   return (
-    <section className="py-24 bg-gradient-to-b from-background to-muted/30">
+    <section id="about" className="py-24 bg-gradient-to-b from-background to-muted/30">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-in fade-in slide-in-from-bottom-4 duration-700">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">

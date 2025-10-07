@@ -4,7 +4,7 @@ import { Mail, Facebook, Phone } from "lucide-react";
 
 export const Contact = () => {
   return (
-    <section className="py-24 bg-gradient-to-b from-muted/30 to-background">
+    <section id="contact" className="py-24 bg-gradient-to-b from-muted/30 to-background">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12 animate-in fade-in slide-in-from-bottom-4 duration-700">

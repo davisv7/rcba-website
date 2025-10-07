@@ -3,7 +3,7 @@ import { Calendar, Clock, MapPin } from "lucide-react";
 
 export const Meetings = () => {
   return (
-    <section className="py-24 bg-background">
+    <section id="meetings" className="py-24 bg-background">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12 animate-in fade-in slide-in-from-bottom-4 duration-700">

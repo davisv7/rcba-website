@@ -23,7 +23,7 @@ const resourceCategories = [
 
 export const Resources = () => {
   return (
-    <section className="py-24 bg-background">
+    <section id="resources" className="py-24 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-in fade-in slide-in-from-bottom-4 duration-700">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
