@@ -4,10 +4,6 @@ import { Check } from "lucide-react";
 import beeFlowerImage from "@/assets/bee-flower.jpg";
 
 const benefits = [
-  "Access to monthly meetings and workshops",
-  "Mentorship program for beginners",
-  "Discounts on beekeeping supplies",
-  "Annual club newsletter and updates",
   "Participation in community outreach events",
   "Swarm call support network",
   "Access to club equipment library",
