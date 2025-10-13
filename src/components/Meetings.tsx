@@ -24,7 +24,7 @@ export const Meetings = () => {
                 <div>
                   <h3 className="text-xl font-semibold mb-2 text-foreground">Monthly Meetings</h3>
                   <p className="text-muted-foreground">
-                    Third Thursday of every month
+                    Third Tuesday of every month (except December)
                   </p>
                 </div>
               </div>
@@ -36,7 +36,7 @@ export const Meetings = () => {
                 <div>
                   <h3 className="text-xl font-semibold mb-2 text-foreground">Time</h3>
                   <p className="text-muted-foreground">
-                    7:00 PM - 9:00 PM
+                    6:00 PM - 7:30 PM
                   </p>
                 </div>
               </div>

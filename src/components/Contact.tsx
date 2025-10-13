@@ -20,7 +20,7 @@ export const Contact = () => {
             <div className="space-y-8">
               <div className="grid md:grid-cols-3 gap-6">
                 <a 
-                  href="mailto:info@rutherfordbeekeepers.org"
+                  href="mailto:rutherfordcountyncbeekeepers@gmail.com"
                   className="flex flex-col items-center text-center p-6 rounded-lg hover:bg-muted/50 transition-all group"
                 >
                   <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
@@ -31,7 +31,7 @@ export const Contact = () => {
                 </a>
 
                 <a 
-                  href="https://facebook.com"
+                  href="https://www.facebook.com/rcbees/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex flex-col items-center text-center p-6 rounded-lg hover:bg-muted/50 transition-all group"
@@ -44,7 +44,7 @@ export const Contact = () => {
                 </a>
 
                 <a 
-                  href="tel:+16155551234"
+                  href="tel:+18287488980"
                   className="flex flex-col items-center text-center p-6 rounded-lg hover:bg-muted/50 transition-all group"
                 >
                   <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
@@ -61,10 +61,10 @@ export const Contact = () => {
                     Ready to Start Your Beekeeping Journey?
                   </h3>
                   <p className="text-muted-foreground mb-6">
-                    Join our welcoming community today and discover the rewarding world of beekeeping.
+                    Sign up for the Spring 2026 Beekeeping School and join our welcoming community.
                   </p>
                   <Button size="lg" className="shadow-[var(--shadow-warm)] hover:scale-105 transition-all">
-                    Become a Member
+                    Sign Up for Beekeeping School
                   </Button>
                 </div>
               </div>

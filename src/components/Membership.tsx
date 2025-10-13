@@ -33,8 +33,8 @@ export const Membership = () => {
             <Card className="p-8 bg-gradient-to-br from-primary/5 to-accent/5 border-primary/20">
               <div className="space-y-6">
                 <div>
-                  <div className="text-4xl font-bold text-foreground mb-2">$25/year</div>
-                  <p className="text-muted-foreground">Individual Membership</p>
+                  <div className="text-4xl font-bold text-foreground mb-2">$10/year</div>
+                  <p className="text-muted-foreground">Family Membership</p>
                 </div>
 
                 <div className="space-y-3">
