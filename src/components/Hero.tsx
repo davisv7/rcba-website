@@ -1,7 +1,10 @@
 import { Button } from "@/components/ui/button";
+import { useNavigate } from "react-router-dom";
 import heroImage from "@/assets/hero-bees.jpg";
 
 export const Hero = () => {
+  const navigate = useNavigate();
+
   return (
     <section className="relative min-h-[50vh] flex items-center justify-center overflow-hidden">
       <div 
@@ -34,7 +37,12 @@ export const Hero = () => {
             <Button size="lg" className="text-lg shadow-[var(--shadow-warm)] hover:scale-105 transition-all" disabled>
               Join Our Club
             </Button>
-            <Button size="lg" variant="outline" className="text-lg hover:scale-105 transition-all">
+            <Button 
+              size="lg" 
+              variant="outline" 
+              className="text-lg hover:scale-105 transition-all"
+              onClick={() => navigate('/about')}
+            >
               Learn More
             </Button>
           </div>
