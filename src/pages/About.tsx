@@ -5,6 +5,26 @@ import beeFlower from "@/assets/bee-flower.jpg";
 import beekeepingTools from "@/assets/beekeeping-tools.jpg";
 import heroBees from "@/assets/hero-bees.jpg";
 
+const styles = `
+  .scroll-animate {
+    opacity: 0;
+    transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+  }
+  .scroll-animate.slide-left {
+    transform: translateX(-50px);
+  }
+  .scroll-animate.slide-right {
+    transform: translateX(50px);
+  }
+  .scroll-animate.slide-up {
+    transform: translateY(50px);
+  }
+  .scroll-animate.animate-in {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+`;
+
 const About = () => {
   const observerRef = useRef<IntersectionObserver | null>(null);
 
@@ -28,6 +48,7 @@ const About = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <style>{styles}</style>
       <Nav />
       
       <main className="container mx-auto px-4 py-16">
@@ -36,7 +57,7 @@ const About = () => {
         </h1>
 
         {/* Section 1 - Image Left */}
-        <div className="scroll-animate opacity-0 translate-x-[-50px] transition-all duration-700 grid md:grid-cols-2 gap-8 items-center mb-16">
+        <div className="scroll-animate slide-left grid md:grid-cols-2 gap-8 items-center mb-16">
           <img 
             src={beeFlower} 
             alt="Bee on flower" 
@@ -54,7 +75,7 @@ const About = () => {
         </div>
 
         {/* Section 2 - Image Right */}
-        <div className="scroll-animate opacity-0 translate-x-[50px] transition-all duration-700 grid md:grid-cols-2 gap-8 items-center mb-16">
+        <div className="scroll-animate slide-right grid md:grid-cols-2 gap-8 items-center mb-16">
           <div className="order-2 md:order-1">
             <h2 className="text-3xl font-bold mb-4 text-foreground">Our History</h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
@@ -72,7 +93,7 @@ const About = () => {
         </div>
 
         {/* Section 3 - Image Left */}
-        <div className="scroll-animate opacity-0 translate-x-[-50px] transition-all duration-700 grid md:grid-cols-2 gap-8 items-center mb-16">
+        <div className="scroll-animate slide-left grid md:grid-cols-2 gap-8 items-center mb-16">
           <img 
             src={heroBees} 
             alt="Bees working" 
@@ -90,7 +111,7 @@ const About = () => {
         </div>
 
         {/* Section 4 - Full Width Text */}
-        <div className="scroll-animate opacity-0 translate-y-[50px] transition-all duration-700 max-w-3xl mx-auto text-center mb-16">
+        <div className="scroll-animate slide-up max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-3xl font-bold mb-4 text-foreground">Looking Forward</h2>
           <p className="text-muted-foreground leading-relaxed mb-4">
             At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
