@@ -1,14 +1,31 @@
-import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
+import { Home } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 import beeFlower from "@/assets/bee-flower.jpg";
 import beekeepingTools from "@/assets/beekeeping-tools.jpg";
 import heroBees from "@/assets/hero-bees.jpg";
 
 const About = () => {
+  const navigate = useNavigate();
 
   return (
     <div className="min-h-screen bg-background">
-      <Nav />
+      <nav className="sticky top-0 z-50 bg-background/95 backdrop-blur border-b border-border">
+        <div className="container mx-auto px-4">
+          <div className="flex items-center justify-between h-16">
+            <a href="/" className="text-xl font-bold text-foreground hover:text-primary transition-colors">
+              RCBA
+            </a>
+            <button
+              onClick={() => navigate('/')}
+              className="flex items-center gap-2 text-foreground hover:text-primary transition-colors font-medium"
+            >
+              <Home size={20} />
+              <span className="hidden sm:inline">Home</span>
+            </button>
+          </div>
+        </div>
+      </nav>
       
       <main className="container mx-auto px-4 py-16">
         <h1 className="text-5xl md:text-6xl font-bold text-center mb-16 bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">
