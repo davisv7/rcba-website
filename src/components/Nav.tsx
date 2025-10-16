@@ -41,7 +41,7 @@ export const Nav = () => {
                 {link.label}
               </button>
             ))}
-            <Button size="sm" className="ml-2">
+            <Button size="sm" className="ml-2" disabled>
               Join Now
             </Button>
           </div>
@@ -68,7 +68,7 @@ export const Nav = () => {
                   {link.label}
                 </button>
               ))}
-              <Button size="sm" className="w-full mt-2">
+              <Button size="sm" className="w-full mt-2" disabled>
                 Join Now
               </Button>
             </div>

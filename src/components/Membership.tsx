@@ -44,7 +44,7 @@ export const Membership = () => {
                   ))}
                 </div>
 
-                <Button className="w-full shadow-[var(--shadow-warm)] hover:scale-105 transition-all">
+                <Button className="w-full shadow-[var(--shadow-warm)] hover:scale-105 transition-all" disabled>
                   Join Today
                 </Button>
               </div>

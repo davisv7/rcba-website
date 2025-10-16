@@ -31,7 +31,7 @@ export const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-            <Button size="lg" className="text-lg shadow-[var(--shadow-warm)] hover:scale-105 transition-all">
+            <Button size="lg" className="text-lg shadow-[var(--shadow-warm)] hover:scale-105 transition-all" disabled>
               Join Our Club
             </Button>
             <Button size="lg" variant="outline" className="text-lg hover:scale-105 transition-all">

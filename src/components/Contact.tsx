@@ -52,7 +52,7 @@ export const Contact = () => {
                   <p className="text-muted-foreground mb-6">
                     Sign up for the Spring 2026 Beekeeping School and join our welcoming community.
                   </p>
-                  <Button size="lg" className="shadow-[var(--shadow-warm)] hover:scale-105 transition-all">
+                  <Button size="lg" className="shadow-[var(--shadow-warm)] hover:scale-105 transition-all" disabled>
                     Sign Up for Beekeeping School
                   </Button>
                 </div>
