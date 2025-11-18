@@ -121,14 +121,6 @@ const BeeSchool = () => {
                   864-921-7032
                 </a>
               </div>
-              <div className="pt-4 border-t border-border">
-                <p className="text-sm text-muted-foreground">
-                  For more information visit{" "}
-                  <a href="https://rutherfordcountybeekeepers.com" className="text-primary hover:underline">
-                    rutherfordcountybeekeepers.com
-                  </a>
-                </p>
-              </div>
             </CardContent>
           </Card>
 
