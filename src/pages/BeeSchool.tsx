@@ -3,10 +3,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Download, Home, Mail, Phone, AlertCircle } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Alert, AlertDescription } from "@/components/ui/alert";
-
 const BeeSchool = () => {
-  return (
-    <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background">
       {/* Simple Navigation */}
       <nav className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b border-border">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
@@ -106,7 +104,7 @@ const BeeSchool = () => {
           <Card className="animate-fade-in">
             <CardHeader>
               <CardTitle className="text-2xl">Questions?</CardTitle>
-              <CardDescription>We're here to help</CardDescription>
+              
             </CardHeader>
             <CardContent className="space-y-4">
               <div className="flex items-center gap-3 text-foreground">
@@ -126,8 +124,6 @@ const BeeSchool = () => {
 
         </div>
       </main>
-    </div>
-  );
+    </div>;
 };
-
 export default BeeSchool;
