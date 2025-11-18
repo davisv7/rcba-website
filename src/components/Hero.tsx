@@ -27,12 +27,7 @@ export const Hero = () => {
             dedicated to the health and prosperity of honeybees.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-            <Button size="lg" className="text-lg shadow-[var(--shadow-warm)] hover:scale-105 transition-all" disabled>
-              Join Our Club
-            </Button>
-            
-          </div>
+          
         </div>
       </div>
     </section>;
