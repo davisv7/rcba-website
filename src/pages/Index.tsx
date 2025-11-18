@@ -6,12 +6,10 @@ import { Membership } from "@/components/Membership";
 import { Resources } from "@/components/Resources";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
-import { Announcement } from "@/components/Announcement";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
-      <Announcement />
       <Nav />
       <Hero />
       <About />
