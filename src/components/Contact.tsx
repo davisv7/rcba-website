@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Mail, Facebook } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export const Contact = () => {
   return (
@@ -52,9 +53,11 @@ export const Contact = () => {
                   <p className="text-muted-foreground mb-6">
                     Sign up for the Spring 2026 Beekeeping School and join our welcoming community.
                   </p>
-                  <Button size="lg" className="shadow-[var(--shadow-warm)] hover:scale-105 transition-all" disabled>
-                    Sign Up for Beekeeping School
-                  </Button>
+                  <Link to="/bee-school">
+                    <Button size="lg" className="shadow-[var(--shadow-warm)] hover:scale-105 transition-all">
+                      Sign Up for Beekeeping School
+                    </Button>
+                  </Link>
                 </div>
               </div>
             </div>
