@@ -28,7 +28,7 @@ export const BeeSchoolPromo = () => {
           <div className="flex flex-wrap justify-center gap-6 mb-10 text-background/90">
             <div className="flex items-center gap-2">
               <Calendar className="w-5 h-5" />
-              <span className="font-medium">Starts February 2026</span>
+              <span className="font-medium">Starts January 24, 2026</span>
             </div>
             <div className="flex items-center gap-2">
               <Clock className="w-5 h-5" />
