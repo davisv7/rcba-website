@@ -100,14 +100,25 @@ const BeeSchool = () => {
             </Alert>
           </div>
 
-          {/* Class Location */}
+          {/* Class Location & Schedule */}
           <Card className="animate-fade-in">
             <CardHeader>
-              <CardTitle className="text-2xl">Class Location</CardTitle>
+              <CardTitle className="text-2xl">Class Location & Schedule</CardTitle>
               <CardDescription>Rutherford County Administration Offices</CardDescription>
             </CardHeader>
-            <CardContent className="space-y-4">
-              <p className="text-foreground font-medium">289 N Main St, Rutherfordton, NC 28139</p>
+            <CardContent className="space-y-6">
+              <div className="space-y-2">
+                <p className="text-foreground font-medium">289 N Main St, Rutherfordton, NC 28139</p>
+                <div className="bg-primary/10 rounded-lg p-4">
+                  <p className="font-semibold text-foreground mb-2">4 Weekly Sessions • 8:00 AM – 12:00 PM</p>
+                  <ul className="space-y-1 text-muted-foreground">
+                    <li>• January 24, 2026</li>
+                    <li>• January 31, 2026</li>
+                    <li>• February 7, 2026</li>
+                    <li>• February 14, 2026</li>
+                  </ul>
+                </div>
+              </div>
               <div className="aspect-video rounded-lg overflow-hidden border border-border">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3258.8!2d-81.9577!3d35.3692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8859f5c5c5c5c5c5%3A0x0!2s289%20N%20Main%20St%2C%20Rutherfordton%2C%20NC%2028139!5e0!3m2!1sen!2sus!4v1704000000000!5m2!1sen!2sus"
