@@ -22,7 +22,7 @@ export const BeeSchoolPromo = () => {
           </h2>
           
           <p className="text-xl md:text-2xl text-background/90 mb-8 max-w-2xl mx-auto">
-            Learn everything you need to become a certified beekeeper in our comprehensive 6-week course.
+            Learn everything you need to become a certified beekeeper in our comprehensive 4-week course.
           </p>
           
           <div className="flex flex-wrap justify-center gap-6 mb-10 text-background/90">
